@@ -7,7 +7,8 @@ const db = new DatabaseConnection.getConnection;
 
 export default function App() {
 
-  const navigation = useNavigation()
+  const navigation = useNavigation();
+
   const navegaHome = () => {
     navigation.navigate('Home');
   };
